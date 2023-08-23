@@ -1,0 +1,52 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav {
+    width: 100%;
+    background-color: whitesmoke;
+    color: #fff;
+}
+nav ul {
+    display: flex; 
+}
+nav li {
+    margin-right: 20px; 
+}
+nav a {
+    color:black;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+nav a:hover {
+    color: #f00; 
+}
+ul li a{
+    margin-right: 100px;
+    font-size: 24px;
+}
+.map h{
+    text-align: center;
+}
+.map{
+    text-align: center;
+}
+.map h{
+    font-size: 24px;
+}
+.map1{
+    font-size: 24px;
+}
+.map2{
+    font-size: 24px;
+}
+.map3{
+    font-size: 24px;
+}
+.map4{
+    font-size: 24px;
+}
+.pages{
+    text-align: center;
+}

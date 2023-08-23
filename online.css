@@ -1,0 +1,90 @@
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav {
+    width: 100%;
+    background-color: whitesmoke;
+    color: #fff;
+}
+nav ul {
+    display: flex; 
+}
+
+nav li {
+    margin-right: 20px; 
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+nav a:hover {
+    color: #f00; 
+}
+ul li a{
+    margin-right: 100px;
+    font-size: 24px;
+}
+/* Basic styling, feel free to enhance it */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e55300;
+}
+.payment-form {
+    max-width: 450px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+.pages{
+    text-align: center;
+ 
+}

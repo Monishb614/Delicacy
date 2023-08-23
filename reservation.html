@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicacy|Reservation System</title>
+    <link rel="stylesheet" href="reservation.css">
+</head>
+<body>
+    <nav class="logo">
+        <div><img src="logo.jpeg" width="160"></div>
+        <div class="head">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservation.html">Reservation System</a></li>
+                <li><a href="online.html"">Online orders</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="reservation-policy">
+        <h2>Reservation Policy</h2>
+        <p>We value your business and want to ensure a smooth reservation process. Please read and understand our reservation policy before making a booking:</p>
+        
+        <h3>1. Booking Process</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et ligula sit amet ex vulputate convallis.</p>
+        
+        <h3>2. Cancellation and Refund</h3>
+        <p>In case of cancellation, please notify us at least 48 hours before the reservation date to receive a full refund. Cancellations made within 48 hours will not be eligible for a refund.</p>
+        
+        <h3>3. No-Show Policy</h3>
+        <p>If you fail to show up for your reservation without prior notice, you may be charged a no-show fee.</p>
+        
+        <h3>4. Modifications</h3>
+        <p>Changes to reservation details can be made up to 24 hours before the reservation date, subject to availability.</p>
+        
+        <h3>5. Contact Us</h3>
+        <p>If you have any questions or concerns about our reservation policy, please feel free to contact us:</p>
+        <p>Email: Monishb614@gmail.com</p>
+        <p>Phone:7200466064</p>
+    </div>
+</body>
+<div class="reservation-form">
+    <h2>Make a Reservation</h2>
+    <form action="process_reservation.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="phone">Mobie:</label>
+        <input type="tel" id="phone" name="number" required><br><br>
+         
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required><br><br>
+        
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required><br><br>
+        
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" required><br><br>
+        
+        <button type="submit">Submit Reservation</button>
+    </form>
+</div>
+<hr>
+<div class="f">
+    <div class="footer_logo">
+        <a href="index.html"><img src="logo.jpeg" width="200"></a>
+    </div>
+    <div class="pages">  
+        <h3>Customer Care</h3>
+        <a href="about.html">About Us</a>|
+        <a href="menu.html">Menu</a>|
+        <a href="reservation.html">Reservation System</a>|
+        <a href="online.html">Online orders</a>|
+        <a href="contact.html">Contact</a>
+    
+        <h3>Documents</h3>
+        <a href="privacy.html">Privacy Policy</a>|
+        <a href="terms.html">Terms of Use</a>|
+        <a href="refund.html">Refund Policy</a>
+    </div>
+    </div>
+    <hr>
+<footer>
+    <p><a href="#">Back to top</a></p>
+    <p>Copyright &copy; 2023 Delicacy. All rights reserved.</p>
+</footer>
+</html>

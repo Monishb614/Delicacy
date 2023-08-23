@@ -1,0 +1,254 @@
+/* Reset default list styles */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav {
+    width: 100%;
+    background-color: whitesmoke;
+    color: #fff;
+}
+nav ul {
+    display: flex; 
+}
+
+nav li {
+    margin-right: 20px; 
+}
+
+nav a {
+    color:black;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+nav a:hover {
+    color: #f00; 
+}
+ul li a{
+    margin-right: 100px;
+    font-size: 24px;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:transparent;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+.content h1{
+    font-size: 45px;
+}
+.content a{
+    color: lightcoral;
+}
+.content p{
+    font-size: 45px;
+    text-align: center;
+}
+.review{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: grey;
+    background-image: url(OIP.jpeg);
+}
+.feed
+{
+    background-image: url(pexels-shotkit-5355642.jpg);
+    background-size:cover;
+    padding: 50px;
+    text-align: center;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; 
+}
+.feed h2
+{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; 
+    color: black;
+    font-size: 35px;
+    text-align: center;
+    padding: 10px;
+}
+.feed .feed_form
+{
+    text-align: center;
+}
+.feed .feed_form form
+{
+    padding:20px;
+}
+.feed .feed_form form input
+{
+    width:30%;
+    margin: 10px;
+    padding: 8px;
+    outline: none;
+    border:none;
+}
+.feed .feed_form form textarea
+{
+    width:30%;
+    margin: 10px;
+    padding: 8px;
+    outline: none;
+    border:none;
+}
+.feed .feed_form form button
+{
+    width:30%;
+    margin: 10px;
+    padding: 8px;
+    outline: none;
+    border:none;
+    background-color: rgb(161, 0, 83);
+    color: white;
+    border: 5px;
+}
+
+footer .pages
+{
+    text-align: center;
+    background-color: red;
+}
+footer .pages h3
+{
+    color: rgb(255, 226, 243);
+    font-size: 20px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; 
+    padding: 5px;
+    font-weight: bold;
+}
+footer .pages a
+{
+    text-decoration: none;
+    margin:10px;
+    color: rgba(255, 226, 243, 0.808);
+    font-size: 15px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; 
+}
+footer .pages a:hover
+{
+    color:white;
+}
+footer .doc
+{
+    text-align: center;
+}
+footer .doc h3
+{
+    color: rgb(255, 226, 243);
+    font-size: 20px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    padding: 5px;
+    font-weight: bold;
+}
+footer .doc a
+{
+    text-decoration: none;
+    margin:10px;
+    color: rgba(255, 226, 243, 0.808);
+    font-size: 15px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+}
+footer .doc a:hover
+{
+    color:red;
+}
+footer .social
+{
+    text-align: center;
+}
+footer .social h3
+{
+    color: rgb(255, 226, 243);
+    font-size: 20px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    padding: 5px;
+    font-weight: bold;
+}
+footer .contact
+{
+    text-align: center;
+}
+footer .contact h3
+{
+    color: rgb(255, 226, 243);
+    font-size: 20px;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+    padding: 5px;
+    font-weight: bold;
+}
+footer .social a
+{
+    font-size: 30px;
+    text-decoration: none;;
+    color:rgba(247, 193, 224, 0.904);
+    margin:10px;
+}
+footer .social a:hover
+{
+    color:white;
+}
+footer .contact a
+{
+    font-size: 30px;
+    text-decoration: none;;
+    color:rgba(247, 193, 224, 0.904);
+    margin:10px;
+}
+footer .contact a:hover
+{
+    color:white;
+}
+footer p
+{
+    color:rgba(247, 178, 217, 0.726);
+}
+.video{
+    padding: 10px;
+}
+.pages{
+    text-align: center;
+ 
+}
+.team
+{
+    padding: 50px;
+}
+.team h2
+{
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; 
+    color: rgb(92, 0, 47);
+    font-size: 35px;
+    text-align: center;
+}
+.team .team_container
+{
+    display: flex;
+}
+.team .team_container .team_video
+{
+    width:50%;
+    padding:20px;
+}
+.team .team_container .team_video video
+{
+    width:100%;
+    border: 8px solid rgb(161, 0, 83);
+    outline: none;
+}
+.team .team_container .team_content
+{
+    width:40%;
+    padding:20px;
+    margin-left:50px;
+    margin-top: 4%;
+    font-size: large;
+    font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif; 
+}
